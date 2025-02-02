@@ -1,8 +1,8 @@
 "use client";
-import React, {useEffect, useState} from "react";
-import {Button} from "@/components/ui/button";
-import {Card, CardContent} from "@/components/ui/card";
-import {Progress} from "@/components/ui/progress";
+import React, { useEffect, useState } from "react";
+import { Button } from "@/components/ui/button";
+import { Card, CardContent } from "@/components/ui/card";
+import { Progress } from "@/components/ui/progress";
 
 const QuizApp = () => {
   const [questions, setQuestions] = useState([]);
@@ -56,9 +56,9 @@ const QuizApp = () => {
     return <div className="text-center mt-10 text-red-500">{error}</div>;
 
   return (
-    <div className="max-w-xl mx-auto p-4">
+    <div className="max-w-xl mx-auto p-4 flex justify-center items-center min-h-screen ">
       {!quizCompleted ? (
-        <Card className="shadow-xl">
+        <Card className="shadow-xl pt-5">
           <CardContent>
             <h2 className="text-2xl font-bold mb-4">
               {questions[currentQuestionIndex].description}
@@ -86,8 +86,8 @@ const QuizApp = () => {
         </Card>
       ) : (
         <div className="text-center">
-          <h2 className="text-3xl font-bold">Quiz Completed!</h2>
-          <p className="text-xl mt-2">
+          <h2 className="text-3xl font-bold text-gray-300">Quiz Completed!</h2>
+          <p className="text-xl mt-2 text-gray-300">
             Your Score: {score} / {questions.length}
           </p>
           <Button onClick={() => window.location.reload()} className="mt-4">
