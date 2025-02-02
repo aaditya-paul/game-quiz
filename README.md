@@ -1,36 +1,64 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Game Quiz App
 
-## Getting Started
+A gamified quiz application built with **Next.js 15** and **shadcn/ui**, designed to deliver an engaging quiz experience with real-time scoring, interactive UI, and API-driven data integration.
 
-First, run the development server:
+## 🚀 Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Dynamic Quiz Questions** fetched from an external API
+- **Real-time Scoring System** with instant feedback
+- **Responsive Design** for seamless mobile and desktop experiences
+- **User-friendly Interface** using shadcn/ui components
+- **Gamification Elements** to enhance user engagement
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🛠️ Tech Stack
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- **Framework:** Next.js 15 (App Router)
+- **UI Library:** shadcn/ui
+- **Language:** TypeScript / JavaScript
+- **Data Source:** Integrated with external APIs
+- **Styling:** Tailwind CSS
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📦 Setup Instructions
 
-## Learn More
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/aaditya-paul/game-quiz.git
+   cd game-quiz
+   ```
 
-To learn more about Next.js, take a look at the following resources:
+2. **Install Dependencies:**
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+3. **Run the Development Server:**
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   ```
+   Open [http://localhost:3000](http://localhost:3000) to view the app in your browser.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+4. **Build for Production:**
+   ```bash
+   npm run build
+   npm start
+   ```
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🤝 Contributing
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Contributions are welcome! Feel free to open issues or submit pull requests.
+
+1. Fork the repo
+2. Create a new branch (`git checkout -b feature/awesome-feature`)
+3. Commit your changes (`git commit -m 'Add awesome feature'`)
+4. Push to the branch (`git push origin feature/awesome-feature`)
+5. Open a Pull Request
+
+## 📄 License
+
+_This project is licensed under the MIT License._
+
